@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Construction Website Design Tutorial</title>
+
+   <!--bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+   <div class="logo1">
+      <a href="./index.html"><img src="./images/23.JPG" alt="logo"></a>
+   </div>
+   <!-- <a href="#" class="logo">We<span>Build</span></a> -->
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#services">services</a>
+      <a href="#projects">projects</a>
+      <a href="#pricing">Vision & Mission</a>
+      <a href="#contact">contact</a>
+      <a href="#blogs">blogs</a>
+   </nav>
+
+   <!-- <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="info-btn" class="fas fa-info-circle"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="login-btn" class="fas fa-user"></div>
+   </div>
+
+   <form action="" class="search-form">
+      <input type="search" name="" placeholder="search here..." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+   </form>
+
+   <form action="" class="login-form">
+      <h3>login form</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">remember me</label>
+         <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+      <p>don't have an account <a href="#">create one!</a></p>
+   </form> -->
+
+</header>
+
+<!-- <div class="contact-info">
+
+   <div id="close-contact-info" class="fas fa-times"></div>
+
+   <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>phone number</h3>
+      <p>+123-456-7890</p>
+      <p>+111-222-3333</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>shaikhanas@gmail.com</p>
+      <p>anasbhai@gmail.com</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>office address</h3>
+      <p>mumbai, india - 400104</p>
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+</div> -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3>Dreams Transformed into Homes.</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
+               <a href="#about" class="btn">get started</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3>making dream come to life</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
+               <a href="#about" class="btn">get started</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3>from concept to creation</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
+               <a href="#about" class="btn">get started</a>
+            </div>
+         </section>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <h1 class="heading"> about us </h1>
+
+   <div class="row">
+
+      <div class="video">
+         <video src="images/about-vid.mp4" loop muted autoplay></video>
+      </div>
+
+      <div class="content">
+         <h3>We will provide you the best work which you dreamt for!</h3>
+         <p style="font-size: 18px;">5M Developers is a budding infrastructure development establishment set-up in the land of Enlightenment <b>Gaya</b>. We have several complete as well as on-going projects to our name. Our end-product speaks of our legacy and our eye for minute details. We continue to build projects which create happy moments for home seekers.</p>
+         <a href="#services" class="btn">read more</a>
+      </div>
+
+   </div>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>10+</h3>
+         <p>years of experience</p>
+      </div>
+
+      <div class="box">
+         <h3>1500+</h3>
+         <p>project completed</p>
+      </div>
+
+      <div class="box">
+         <h3>790+</h3>
+         <p>satiesfied clients</p>
+      </div>
+
+      <div class="box">
+         <h3>450+</h3>
+         <p>active workers</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+<!-- pricing section starts  -->
+
+<section class="pricing" id="pricing">
+
+   <h1 class="heading"> Vision And Mission </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-home"></i>
+         <h2>Our Vision</h2>
+   
+         <div class="list">
+            <p style="font-size: 20px;">To add value to the lives of our customers and stakeholders through sustainable growth.</p>
+         </div>
+         
+      </div>
+
+      <div class="box">
+         <i class="fas fa-building"></i>
+         <h2>Our Mission</h2>
+         
+         <div class="list">
+            <p style="font-size: 20px;">To be leader in the infrastructure sector by providing quality homes at affordable price. We build dreams in the guise of homes.</p>
+         </div>
+         
+      </div>
+
+      
+   </div>
+
+</section>
+
+<!-- pricing section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+   <h1 class="heading"> our services </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/service-1.png" alt="">
+         <h3>building construction</h3>
+         <p>Trust us to bring your vision to life with our expert building construction services. We specialize in building custom, high-quality structures that meet your unique needs. Contact us today to get started.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-2.png" alt="">
+         <h3>house renovation</h3>
+         <p>Transform your house into your dream home with our professional renovation services. We specialize in interior and exterior renovations.Contact us today to learn how we can help you achieve your renovation goals.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-3.png" alt="">
+         <h3>architechture design</h3>
+         <p>Unlock the full potential of your space with our expert architecture design services. We offer customized design solutions to meet your unique needs and help you achieve your vision. Contact us today to learn more about our design process and how we can help you create a space that truly reflects your style and functionality requirements.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-4.png" alt="">
+         <h3>material supply</h3>
+         <p>Get the high-quality materials you need for your construction or renovation project with our material supply services. We offer a wide range of building materials, including lumber, roofing materials, windows, doors, and more. Contact us today to learn more about our product offerings and how we can help you with your material supply needs.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-5.png" alt="">
+         <h3>construction consultant</h3>
+         <p>Get expert guidance and advice for your construction project with our construction consultant services. Our experienced consultants will work with you to develop a customized plan to meet your needs and budget. Contact us today to learn more about our construction consulting services and how we can help you achieve your project goals.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-6.png" alt="">
+         <h3>interior design</h3>
+         <p>Transform your space with our professional interior design services. We specialize in creating customized design plans that reflect your personal style and meet your functional needs. Contact us today to learn more about our interior design services and how we can help you create the perfect space.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-7.png" alt="">
+         <h3>building maintenance</h3>
+         <p>Ensure the longevity and safety of your building with our expert building maintenance services. We offer regular maintenance plans to keep your building in top condition, including HVAC system maintenance, electrical and plumbing inspections, and more. Contact us today to learn more about our building maintenance services and how we can help you keep your building running smoothly.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/service-8.png" alt="">
+         <h3>building renovation</h3>
+         <p>Transform your building with our professional renovation services. We offer a wide range of interior and exterior renovation services to help you achieve your goals. Contact us today to learn more.</p>
+      </div>
+      
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- projects section starts  -->
+
+<section class="projects" id="projects">
+
+   <h1 class="heading"> our projects </h1>
+
+   <div class="box-container">
+
+      <a href="images/project-1.jpg" class="box">
+         <div class="image">
+            <img src="images/project-1.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>dream home</h3>
+               <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/project-2.jpg" class="box">
+         <div class="image">
+            <img src="images/project-2.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>dream home</h3>
+               <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/project-3.jpg" class="box">
+         <div class="image">
+            <img src="images/project-3.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>dream home</h3>
+               <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/project-4.jpg" class="box">
+         <div class="image">
+            <img src="images/project-4.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>dream home</h3>
+               <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/project-5.jpg" class="box">
+         <div class="image">
+            <img src="images/project-5.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>dream home</h3>
+               <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+      <a href="images/project-6.jpg" class="box">
+         <div class="image">
+            <img src="images/project-6.jpg" alt="">
+         </div>
+         <div class="content">
+            <div class="info">
+               <h3>dream home</h3>
+               <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+         </div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- projects section ends -->
+
+
+
+
+<!--our team section start-->
+<section id="team" class="team section-bg">
+   <div class="container">
+
+     <div class="section-title">
+       <h2>Our Team</h2>
+       <div class="underline"></div>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
+     </div>
+
+     <div class="row">
+
+       <div class="col-lg-6">
+         <div class="member d-flex align-items-start" >
+           <div class="teampic"><img src="./images/team1.png" class="img-fluid" alt=""></div>
+           <div class="member-info">
+             <h4>Mohammad Nurul Haque</h4>
+             <span>Director</span>
+             
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
+             <div class="social">
+               <a href=""><i class="bi bi-facebook"></i></a>
+               <a href=""><i class="bi bi-instagram"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+               <a href=""> <i class="bi bi-whatsapp"></i> </a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-lg-6 mt-4 mt-lg-0">
+         <div class="member d-flex align-items-start" >
+           <div class="teampic"><img src="./images/team2.png" class="img-fluid" alt=""></div>
+           <div class="member-info">
+             <h4>Mohammad Shahbaz Zafar</h4>
+             <span>Managing Director</span>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
+             <div class="social">
+               <a href=""><i class="bi bi-facebook"></i></a>
+               <a href=""><i class="bi bi-instagram"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+               <a href=""> <i class="bi bi-whatsapp"></i> </a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-lg-6 mt-4">
+         <div class="member d-flex align-items-start" >
+           <div class="teampic"><img src="./images/team1.png" class="img-fluid" alt=""></div>
+           <div class="member-info">
+             <h4>Munawwar Shamim Mallick</h4>
+             <span>Marketing Manager</span>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
+             <div class="social">
+               <a href=""><i class="bi bi-facebook"></i></a>
+               <a href=""><i class="bi bi-instagram"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+               <a href=""> <i class="bi bi-whatsapp"></i> </a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-lg-6 mt-4">
+         <div class="member d-flex align-items-start" >
+           <div class="teampic"><img src="./images/team2.png" class="img-fluid" alt=""></div>
+           <div class="member-info">
+             <h4>Mohammad Jawed Akhtar</h4>
+             <span>Sales Expert</span>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
+             <div class="social">
+               <a href=""><i class="bi bi-facebook"></i></a>
+               <a href=""><i class="bi bi-instagram"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+               <a href=""> <i class="bi bi-whatsapp"></i> </a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-lg-6 mt-4">
+         <div class="member d-flex align-items-start" >
+           <div class="teampic"><img src="./images/team1.png" class="img-fluid" alt=""></div>
+           <div class="member-info">
+             <h4>R N Singh & Co. represented by young CA Mohammad Shahjahan</h4>
+             <span>Finance Partner</span>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
+             <div class="social">
+               <a href=""><i class="bi bi-facebook"></i></a>
+               <a href=""><i class="bi bi-instagram"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+               <a href=""> <i class="bi bi-whatsapp"></i> </a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-lg-6 mt-4">
+         <div class="member d-flex align-items-start" >
+           <div class="teampic"><img src="./images/team2.png" class="img-fluid" alt=""></div>
+           <div class="member-info">
+             <h4>Ahmad Associates represented by experienced lawyer Advocate Mohammad Danish Zafar</h4>
+             <span>Legal Partner</span>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
+             <div class="social">
+               <a href=""><i class="bi bi-facebook"></i></a>
+               <a href=""><i class="bi bi-instagram"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+               <a href=""> <i class="bi bi-whatsapp"></i> </a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+     </div>
+
+   </div>
+ </section>
+ <!-- End Team Section -->
+
+
+<!-- reviews section starts  -->
+
+<section class="reviews">
+
+   <h1 class="heading"> clients reviews </h1>
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <p>"I hired this construction company for a major renovation project and they did an incredible job. The team was efficient, respectful, and kept me informed every step of the way. The end result was better than I could have ever imagined."</p>
+            <div class="user">
+               <img src="images/pic-1.png" alt="">
+               <div class="info">
+                  <h3>Osama Siddiqui</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>"If you're looking for a construction company that delivers high-quality work and exceptional customer service, look no further. This company is the real deal and I would recommend them to anyone."</p>
+            <div class="user">
+               <img src="images/pic-2.png" alt="">
+               <div class="info">
+                  <h3>Akif Jawaid</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>"I couldn't be happier with the work done by this construction company. The team was professional, reliable, and delivered exceptional results. They exceeded my expectations and I would use them again in a heartbeat."</p>
+            <div class="user">
+               <img src="images/pic-3.png" alt="">
+               <div class="info">
+                  <h3>Farhan rahman</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>"This construction company is the best! They took the time to understand my needs and delivered exactly what I wanted. The team was friendly, knowledgeable, and made the whole process a breeze."</p>
+            <div class="user">
+               <img src="images/pic-4.png" alt="">
+               <div class="info">
+                  <h3>Amitabh bachchan</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>"Fantastic construction company! Their attention to detail is amazing and they were able to complete my project on time and within budget. Highly recommended!"</p>
+            <div class="user">
+               <img src="images/pic-5.png" alt="">
+               <div class="info">
+                  <h3>Salman khan</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- reviews section ends -->
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <h1 class="heading"> contact us </h1>
+
+   <div class="row">
+
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.017832065495!2d84.98374881421245!3d24.794842910561453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32a5dc4241913%3A0xa08206626a797598!2s26%2C%204%2C%20Main%20Rd%2C%20Old%20Kareem%20Ganj%2C%20Kareem%20Ganj%2C%20Gaya%2C%20Bihar%20823001!5e0!3m2!1sen!2sin!4v1680976639453!5m2!1sen!2sin"  allowfullscreen="" loading="lazy"></iframe>
+
+      <!-- <form action="">
+         <h3>get in touch</h3>
+         <input type="text" placeholder="name" class="box">
+         <input type="email" placeholder="email" class="box">
+         <input type="number" placeholder="phone" class="box">
+         <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" class="btn">
+      </form> -->
+
+      <!-- <div class="container1"> -->
+         <!-- <span class="big-circle"></span> -->
+         <!-- <img src="img/shape.png" class="square" alt="" /> -->
+         <div class="form">
+           <div class="contact-info1">
+             <h3 class="title">Let's get in touch</h3>
+             <p class="text">
+               Thank you for visiting our website. If you have any questions or would like to learn more about our products/services, please feel free to get in touch with us. We're always happy to hear from our customers!
+             </p>
+   
+             <div class="info">
+               <div class="information">
+                 <img src="./images/location.png" class="icon" alt="" />
+                 <p>Chamber No. 4, Dar Al Salaam
+                  Road No. 26, Aliganj
+                  Gaya, Bihar
+                  Pin – 823001
+                  </p>
+               </div>
+               <div class="information">
+                 <img src="./images/email.png" class="icon" alt="" />
+                 <p>lorem@ipsum.com</p>
+               </div>
+               <div class="information">
+                 <img src="./images/phone.png" class="icon" alt="" />
+                 <p>123-456-789</p>
+               </div>
+             </div>
+   
+             <div class="social-media">
+               <p>Connect with us :</p>
+               <div class="social-icons">
+                 <a href="#">
+                   <i class="fab fa-facebook-f"></i>
+                 </a>
+                 <a href="#">
+                   <i class="fab fa-twitter"></i>
+                 </a>
+                 <a href="#">
+                   <i class="fab fa-instagram"></i>
+                 </a>
+                 <a href="#">
+                   <i class="fab fa-linkedin-in"></i>
+                 </a>
+               </div>
+             </div>
+           </div>
+   
+           <div class="contact-form">
+              
+             <form action="index.html" autocomplete="off">
+               <h3 class="title">Contact us</h3>
+               <div class="input-container">
+                 <input type="text" name="name" class="input" />
+                 <label for="">Username</label>
+                 <span>Username</span>
+               </div>
+               <div class="input-container">
+                 <input type="email" name="email" class="input" />
+                 <label for="">Email</label>
+                 <span>Email</span>
+               </div>
+               <div class="input-container">
+                 <input type="tel" name="phone" class="input" />
+                 <label for="">Phone</label>
+                 <span>Phone</span>
+               </div>
+               <div class="input-container textarea">
+                 <textarea name="message" class="input"></textarea>
+                 <label for="">Message</label>
+                 <span>Message</span>
+               </div>
+               <input type="submit" value="Send" class="btn1" />
+             </form>
+           </div>
+         </div>
+       </div>
+
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+   <h1 class="heading"> our blogs </h1>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>blog title goes here</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, nobis!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>blog title goes here</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, nobis!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>blog title goes here</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, nobis!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-4.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>blog title goes here</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, nobis!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-5.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>blog title goes here</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, nobis!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+         
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-6.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>blog title goes here</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, nobis!</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- client logo section starts -->
+
+<section class="logo-container">
+   <div class="swiper logo-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide"><img src="images/client-logo-1.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-2.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-3.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-4.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-5.png" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/client-logo-6.png" alt=""></div>
+      </div>
+   </div>
+</section>
+
+<!-- client logo section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="links">
+      <a class="btn" href="#home">home</a>
+      <a class="btn" href="#about">about</a>
+      <a class="btn" href="#services">services</a>
+      <a class="btn" href="#projects">projects</a>
+      <a class="btn" href="#pricing">pricing</a>
+      <a class="btn" href="#contact">contact</a>
+      <a class="btn" href="#blogs">blogs</a>
+   </div>
+
+   
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script src="https://kit.fontawesome.com/64d58efce2.js"  crossorigin="anonymous" ></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<!-- custom js file link  -->
+<script src="./js/script.js"></script>
+
+<script>
+
+lightGallery(document.querySelector('.projects .box-container'));
+
+</script>
+
+</body>
+</html>
