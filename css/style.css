@@ -1282,7 +1282,7 @@ textarea.input {
 
 .btn1:hover {
   background-color: transparent;
-  color: var(--bondi-blue);
+  color: black;
 }
 
 .input-container span {
